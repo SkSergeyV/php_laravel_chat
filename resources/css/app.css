@@ -1,0 +1,348 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+ .m_block {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: auto;
+    background-color: #fabd78; 
+}
+
+.a_block {
+    width: 250px;
+    height: 200px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;  
+    outline:0px solid red;
+}
+
+.a_title{
+   font-size: 16px;
+   font-family: figtree;
+   text-align:center;
+    margin-bottom:15px;
+}
+
+
+.auth_inp_bx{
+   margin-bottom:15px;
+   text-align:center;
+   width:225px;
+   float:left;
+}
+
+.auth_inp_ico{
+    height:30px;
+    width:20px;
+    float:left;
+    padding-top: 5px;
+}
+
+
+.login_error{
+   font-size: 14px;
+   font-family: figtree;
+   text-align:center;
+   color: red;
+}
+
+
+.mc_block{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: auto;
+    outline: 1px solid red;
+    background-color: #fabd78; 
+}
+
+.ac_block{
+    max-width: 700px;
+    height: 600px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0;
+    left: 0px;
+    margin: auto;
+    outline: 0px solid green;
+}
+
+.dialogue_window{
+   height:360px;        /*330*/
+   border:0px solid grey;
+   margin-top:10px;
+   overflow-y: auto;
+   padding:15px;
+   background-color: #fcfafa;
+   border-radius: 10px;
+   max-width: 700px;
+   margin-bottom:15px;
+   margin-left:10px;
+   margin-right:10px;
+}
+
+.txt_dialogue{
+   width: 96%;
+   max-width: 700px;
+   height:70px;
+   border:1px solid #d4d4d4;
+   padding:15px;
+   border-radius: 10px;
+   margin-bottom:15px;
+   margin-left:10px;
+   margin-right:10px;
+ }
+ 
+ .bx_button{
+    margin-left:10px;
+ }
+ 
+ .mrl5{
+   margin-left: 5px;
+ }
+ 
+  .mrl10{
+   margin-left: 10px;
+ }
+ 
+  .mrr5{
+   margin-right: 5px;
+ }
+ 
+   .mrr10{
+   margin-right: 10px;
+ }
+ 
+ .panel_box{
+   width: 97%;
+   max-width: 700px;
+   height:35px;
+   border:0px solid #d4d4d4;
+   margin-bottom:15px;
+   margin-left:10px;
+   margin-right:10px;
+ }
+ 
+ .panel_button{
+    width:45px;
+ }
+ 
+ .f_right{
+   float:right;
+ }
+ 
+.f_left{
+   float:left;
+ }
+ 
+ .clr_red{
+  color: #e30505;
+ }
+ 
+ .clr_green{
+  color: #47a838;
+ }
+ 
+ 
+  .clr_green2{
+  color: #127d09;
+ }
+ 
+ 
+ .clr_orange{
+    color: #fabd78; 
+ }
+ 
+ 
+ .user_info{
+    width:120px;
+    height:35px;
+    float:left;
+    outline: 0px solid green;
+ }
+ 
+ .user_bx{
+    height:20px;
+    width: 110px;
+ }
+ 
+ .user_name{
+    font-size: 12px;
+    margin-right: 15px;
+    font-weight: bold;
+ }
+ 
+ .user_status{
+   font-size: 10px;
+   margin-right: 5px;
+   outline: 0px solid green;
+ }
+ 
+ .user_action{
+    font-size: 10px;
+    color: #ffffff;
+    font-style: italic; 
+ }
+ 
+ 
+  .msg_user{
+   background-color: #e1fcec;
+   border-radius: 10px;
+   padding:10px;
+   display: table;
+    margin-bottom:10px;
+ }
+ 
+  .msg{
+   background-color: #ffffff;
+   border-radius: 10px;
+   padding:10px;
+   display: table;
+   margin-bottom:10px;
+ }
+ 
+ .mes_user_name{
+    font-size:13px;
+    font-weight: bold;
+    color: #fabd78;
+    margin-bottom:5px;
+ }
+ 
+ .send_text{
+    white-space: pre-wrap;
+ }
+ 
+  .send_date{
+    font-size:10px;
+ }
+ 
+  .fa-grey{
+    color: #797979;
+    margin-left:5px;
+ }
+ 
+ 
+  .fa-orange{
+    color: #f7a02f;
+    margin-left:5px;
+ }
+ 
+ 
+ .fa-green{
+    color: #228B22;
+    margin-left:5px;
+ }
+ 
+ .fnt12{
+   font-size: 12px;
+ }
+ 
+.fnt15{
+   font-size: 15px;
+ }
+ 
+ .fnt16{
+   font-size: 16px;
+ }
+ 
+ .fnt17{
+   font-size: 17px;
+ }
+ 
+ .fnt18{
+   font-size: 18px;
+ }
+ 
+.new_message_bx{
+   background-color: #ffffff;
+   border-radius: 10px;
+   padding:10px;
+   width: 200px;
+   text-align:center;
+   margin: 10px auto;
+   color:#f7a02f;
+   border: 1px solid #f7a02f;
+ }
+ 
+ .bx_smail{
+   cursor:pointer;
+   margin-right:10px;
+ }
+ 
+ .clr{
+   clear: both;
+ }
+ 
+ .usr_n{
+    width: 20px;
+    float:left;
+ }
+ 
+ 
+.act_panel{
+    width: 110px;
+    height:20px;
+    float:right;
+    text-align:right;
+    outline: 0px solid blue;
+ }
+ 
+ .csp{
+   cursor: pointer;
+ }
+ 
+ .mrl15{
+   margin-left: 15px;
+ }
+ 
+
+   .mrr15{
+   margin-right: 15px;
+ }
+ 
+ 
+  .mrl20{
+   margin-left: 20px;
+ }
+ 
+
+   .mrr20{
+   margin-right: 20px;
+ }
+ 
+ .quote_bx{
+   background-color: #fafafa;
+   border-radius: 5px;
+   padding:5px;
+   border-left: 3px solid #b3abab;
+   margin-left:10px;   
+ }
+ 
+ .q_msg{
+   text-align:left;
+   color:#000;
+   font-style: italic;   
+   white-space: nowrap;
+   font-size: 11px;
+ }
+ 
+ .q_user{
+     color:#0514a1;
+     font-size: 12px;
+     font-weight:bold;
+ }
+ 
+ 
